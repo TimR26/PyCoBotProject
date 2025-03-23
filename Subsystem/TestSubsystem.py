@@ -1,4 +1,4 @@
-import Utils
+import Utils.Utils as Utils
 
 class TestSubsystem(Utils.Subsystem):
     def __init__(self, ListofSubsystem: list[Utils.Subsystem], number: int, string: str):

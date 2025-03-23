@@ -1,7 +1,7 @@
 import random
 import time
-from TestSubsystem import TestSubsystem
-import Utils
+from Subsystem.TestSubsystem import TestSubsystem
+import Utils.Utils as Utils
 
 class TestSubsystem1(Utils.Subsystem):
     def __init__(self, ListofSubsystem: list[Utils.Subsystem], number: int, string: str):

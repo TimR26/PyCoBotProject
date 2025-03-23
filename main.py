@@ -1,7 +1,7 @@
 import threading
-from Utils import Subsystem
-from TestSubsystem import TestSubsystem
-from TestSubsystem1 import TestSubsystem1
+from Utils.Utils import Subsystem
+from Subsystem.TestSubsystem import TestSubsystem
+from Subsystem.TestSubsystem1 import TestSubsystem1
 
 if __name__ == "__main__":
     listOfSubsystems: list[Subsystem] = []
