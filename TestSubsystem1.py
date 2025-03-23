@@ -12,7 +12,7 @@ class TestSubsystem1(Utils.Subsystem):
 
     def getSubsystem(self, subsystemType):
         for subsystem in self.ListofSubsystem:
-            if type(subsystem) == subsystemType:
+            if type(subsystem) is subsystemType:
                 return subsystem
 
     def periodic(self):

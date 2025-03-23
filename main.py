@@ -1,5 +1,4 @@
 import threading
-import time
 from Utils import Subsystem
 from TestSubsystem import TestSubsystem
 from TestSubsystem1 import TestSubsystem1

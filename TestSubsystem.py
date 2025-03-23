@@ -1,4 +1,3 @@
-import time
 import Utils
 
 class TestSubsystem(Utils.Subsystem):
@@ -10,14 +9,14 @@ class TestSubsystem(Utils.Subsystem):
 
     def getSubsystem(self, subsystemType):
         for subsystem in self.ListofSubsystem:
-            if type(subsystem) == subsystemType:
+            if type(subsystem) is subsystemType:
                 return subsystem
 
     def periodic(self):
         num = self.number
         while True:
             try:
-                if self.number != num:
+                if self.number is not num:
                     self.printE()
                     num = self.number
                 
