@@ -1,3 +1,3 @@
-class Subsystem():
+class Subsystem:
     def periodic(self):
         pass
